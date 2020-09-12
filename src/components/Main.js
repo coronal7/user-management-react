@@ -16,7 +16,6 @@ class Main extends Component {
               return (
                 <Home
                   items={this.props.items}
-                  onDelete={this.props.onDelete}
                   {...props}
                 />
               );
