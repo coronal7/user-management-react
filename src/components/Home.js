@@ -6,7 +6,7 @@ import { Jumbotron } from "reactstrap";
 class Home extends Component {
   render() {
     let items = this.props.items.map((item) => {
-      return <Item key={item.id} item={item} onDelete={this.props.onDelete} />;
+      return <Item key={item.id} item={item} />;
     });
 
     return (
