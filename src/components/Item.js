@@ -7,10 +7,6 @@ class Item extends Component {
     this.onDelete = this.onDelete.bind(this);
   }
 
-  onDelete() {
-    this.props.onDelete(this.props.item);
-  }
-
   render() {
     return (
       <div>
